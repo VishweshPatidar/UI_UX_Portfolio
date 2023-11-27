@@ -1,0 +1,297 @@
+@font-face {
+    font-family: 'IsidoraMedium';
+    src: url('fonts/IsidoraSans-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'IsidoraBold';
+    src: url('fonts/IsidoraSans-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'IsidoraRegular';
+    src: url('fonts/IsidoraSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SpotifyMedium';
+    src: url('fonts/CircularSpotifyText-Medium.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Bold';
+    src: url('fonts/CircularSpotifyText-Bold.otf') format('opentype');
+}
+@font-face {
+    font-family: 'SpotifyLight';
+    src: url('fonts/CircularSpotifyText-Light.otf') format('opentype');
+}
+
+*{
+    padding : 0px ; 
+    margin : 0px ; 
+}
+
+.background  {
+    height: 100%;
+    width   :100% ; 
+}
+
+.bg-image {
+    background-image:
+    linear-gradient(to bottom, rgba(44, 7, 93, 0.52), rgba(0, 19, 93, 0.5)),
+    url('astronaut-nebula-clouds-space-travel-space-adventure-3556x2000-897.jpg');
+    height: 900px ; 
+    background-size: cover;
+    background-position: left;
+    mask-image: linear-gradient(to bottom, rgba(44, 7, 93, 0.52), black);
+}
+
+.navbar {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(33, 22, 43 , 0.8) ; 
+}
+
+.nav-image {
+    width : 30px  ;
+    height: 50px ;
+    margin : 0px 0px 0px 25px ; 
+}
+
+.logo {
+    height: 30px;
+    width: 100%;
+    background-size: cover;
+    filter: invert(100%);
+    margin : 10px 0px 0px 0px ; 
+} 
+.nav-text  {
+    width : 70% ; 
+    padding  : 0px 0px 0px 160px; 
+    text-align: center;
+}
+
+.nav-text a {
+    font-size: 1.2rem;
+    color: azure;
+    text-decoration: none;
+    font-family: "IsidoraMedium";
+}
+
+.insta {
+    border  : 2px solid rgb(218, 199, 236 , 0.1) ; 
+    background-color: rgba(255, 255, 255, 0.01); 
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.insta:hover { 
+    scale:1.2 ; 
+    transition: all 0.5s ease-in-out;
+}
+
+.twitter {
+    border  : 2px solid rgb(218, 199, 236 , 0.1) ; 
+    background-color: rgba(255, 255, 255, 0.01); 
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.twitter:hover { 
+    scale:1.2 ; 
+    transition: all 0.5s ease-in-out;
+}
+
+.linkedin {
+    border  : 2px solid rgb(218, 199, 236 , 0.1) ; 
+    background-color: rgba(255, 255, 255, 0.01);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linkedin:hover { 
+    scale:1.2 ; 
+    transition: all 0.5s ease-in-out;
+}
+
+.nav-social {
+    width : 200px ; 
+    display : flex;
+    justify-content: space-evenly;
+}
+
+
+.personal-info  {
+    color: rgb(218, 199, 236) ; 
+    font-family: "IsidoraBold";
+    font-size: 3rem;
+    padding : 130px 0px 0px 100px ; 
+}
+
+.secondary-text  {
+    font-family: "IsidoraMedium";
+    margin-top: 60px;
+    font-size: 1.6rem;
+    
+}
+
+.name {
+    margin-bottom: 12px;
+}
+.erno {
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+
+.hero-section  {
+    font-family: "IsidoraMedium";
+}
+
+.hero-image { 
+    height: 100%;
+    background-image:
+    linear-gradient(to bottom, rgb(18, 25, 67), rgba(40, 0, 93, 0.8)) , 
+    url('artistic-blurry-colorful-wallpaper-background.jpg');
+    background-size: cover;
+}
+
+.hero-text  {
+    text-align: center;
+    padding-top: 80px;
+    /* color: rgb(218, 199, 236) ; */
+    color: white;  
+
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.labs {
+    padding-top : 40px ; 
+    display: flex;
+    justify-content: space-evenly ; 
+    align-items : center ; 
+    flex-wrap: wrap; 
+}
+
+.box {
+    color: rgb(255, 255, 255);
+    font-family: "IsidoraMedium";
+    height: 250px;
+    width :15% ; 
+    border : 0.7px solid rgb(218, 178, 255) ;  
+    border-radius : 20px ;
+    margin: 0px 22px 50px 22px;
+    box-shadow: 0px 0px 6px 6px rgb(207, 136, 255 , 0.1);
+}
+
+.box h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.objective  {
+    padding : 20px 0px 0px 0px ; 
+}
+
+.box p {
+    padding : 0px 5px 0px 5px ; 
+    color: rgb(218, 199, 236);
+    text-align: center;
+}
+
+.box-middle-section {
+    height: 100px;
+    margin : 0px 10px 0px 10px ; 
+}
+
+button  {
+    border : none ; 
+    padding: 10px 53px 10px 53px;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 31px 0px 0px 40px;
+    border-radius:32px ;
+    background-color: rgb(213, 203, 223);
+}
+
+button:hover {
+    border : 1px solid rgb(139, 89, 201) ;
+    scale : 1.1 ; 
+    opacity: 1;
+    filter: blur(0);
+    transition: all 0.5s ease-in-out;
+}
+
+.labs:hover .box {
+    opacity: 0.5;
+    filter: blur(1px);
+    transition: all 0.5s ease-in-out;
+}
+
+.labs .box:hover {
+    opacity: 1;
+    filter: blur(0);
+    border : 1px solid rgb(139, 89, 201) ;
+    scale : 1.1 ;
+    transition: all 0.5s ease-in-out;
+}
+
+footer {
+    height: 80px;
+    background-color: rgb(33, 22, 43 ) ; 
+    color: white;
+    font-family: "IsidoraMedium";
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.copyright  {
+    font-size: 1rem;
+    text-align: center;
+    padding: 10px 0px 0px 420px;
+}
+
+.copyright a {
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+}
+
+.rights {
+    padding-top: 7px;
+}
+
+.pfp {
+    margin : 60px 0px 0px 100px ; 
+    border : none ; 
+    box-shadow: 0px 0px 6px 6px rgba(73, 3, 120, 0.3);
+}
+
+.pfp-image { 
+    height: 250px;
+    width: 100%;
+}
+
+.photo {
+    background-image : url('PFP/pfp1_copy.jpeg') ; 
+    border-radius : 20px ;
+    height: 250px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
